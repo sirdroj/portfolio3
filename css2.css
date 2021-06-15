@@ -511,7 +511,7 @@ footer{
         width: 100%;
     }
     .openbtnn {
-        font-size: 40px;
+        font-size: 7vh;
         cursor: pointer;
         background-color: #111;
         color: white;
@@ -519,7 +519,7 @@ footer{
         position:fixed;
         right:0;
         border: none;
-        width: 90px;
+        width: 20vh;
         text-align: left;
         display:block;
       background-color: grey;
@@ -527,7 +527,7 @@ footer{
       z-index: 99;
       }
     .openbtn {
-        font-size: 40px;
+        font-size: 5vh;
         cursor: pointer;
         background-color: #111;
         color: white;
@@ -543,6 +543,9 @@ footer{
       /* z-index: 99; */
       }
       .sidebar a{
-          font-size: 40px;
+          font-size: 5vh;
+      }
+      .header{
+          height: 11vh;
       }
   }
