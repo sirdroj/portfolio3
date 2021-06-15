@@ -42,6 +42,7 @@
           
           <div id="main">
             <button class="openbtn" id="navbar" onclick="openNav()">☰</button>  
+            <button class="openbtnn" id="navbarr" onclick="openNav()">☰</button>  
           </div>
     </div>
     <section class="intro">
@@ -311,13 +312,12 @@ function closeNav() {
 var prevScrollpos = 0;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if(screen.width>1024px){
-  if (10 > currentScrollPos) {
-    document.getElementById("navbar").style.display = "none";
-  } else {
-    document.getElementById("navbar").style.display = "block";
-  }
-}
-  prevScrollpos = currentScrollPos;
+
+      if (10 > currentScrollPos) {
+          document.getElementById("navbar").style.display = "none";
+        } else {
+            document.getElementById("navbar").style.display = "block";
+        }
+        prevScrollpos = currentScrollPos;
 }
 </script>
