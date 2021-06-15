@@ -184,4 +184,7 @@ display: flex;
     padding: 5%;
     width: 400px;
 }
+.sidebar a{
+    font-size: 20px;
+}
 /* i pasted privous pf2 styff below --------------------------------------------------------------------------*/
