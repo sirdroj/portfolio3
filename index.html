@@ -113,7 +113,7 @@
                 (+91)9955 306 911
             </div>
         </div>
-        <div>
+        <div class="bottomtext">
             Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Qui culpa rerum placeat illum nisi, voluptatum
             voluptate optio cum molestias vitae modi veniam commo
@@ -126,7 +126,8 @@
         <div class="heading">
             <h1>EDUCATION</h1>
         </div>
-       <div class="mid"> <div class="sec1">
+       <div class="mid">
+            <div class="sec1">
         <!-- <img src="mypic.jpeg" alt="boy smile">
             <div class="contactinfo">
                 <i class="fa fa-envelope"></i><br>
@@ -310,11 +311,13 @@ function closeNav() {
 var prevScrollpos = 0;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
+  if(screen.width>1024px){
   if (10 > currentScrollPos) {
     document.getElementById("navbar").style.display = "none";
   } else {
     document.getElementById("navbar").style.display = "block";
   }
+}
   prevScrollpos = currentScrollPos;
 }
 </script>

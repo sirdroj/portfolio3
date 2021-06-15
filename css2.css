@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     font-family: 'Abel', sans-serif;
@@ -426,17 +429,95 @@ footer{
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   } */
-  @media only screen and(min-widt:1024px) {
+  @media only screen and (max-width: 1024px) {
       .menue{
           display: none;
       }
       body{
-          background-color: hotpink;
+          /* background-color: hotpink; */
       }
       .profile mid div{
         width: 100%;
     }
     .intro{
-        display: bloc;
+        display: block;
     }
+    .intro div{
+        width: 80%;
+
+    }
+    .profile mid{
+        display: block;
+        width: 80%;
+    }
+    .education .mid{
+        width: 100%;
+        display: block;
+    }
+    .education .mid h1{
+        width:150px;
+    }
+    .education .mid .sec2{
+        /* height: 80rem; */
+        margin-left: 5%;
+        width:80% ;
+        padding-top: 10%;
+        /* margin: 10% 0 0 0; */
+        /* background-color: rgb(165, 165, 165); */
+    }
+    .education .mid .sec1{
+        margin: 10% 0 0 0;
+        width:40% ;
+        margin-top: 10%;
+    }
+    .educationn{
+        margin-top: 50%;
+    }
+    .Aboutme h1{
+        width: 80%;
+       
+    }
+    .Aboutme div{
+        width: 80%;
+    }
+    .Aboutme .image{
+        width: 90%;  
+        background-position: center;
+        text-align: center;
+        /* margin: 0%; */
+    }
+    .Aboutme .image div{
+        position:relative;
+        left: 10vw;
+    }
+    .Aboutme .bottomtext{
+        padding-top: 100px;
+        width: 80%;
+    }
+    .contactme{
+        display: block;
+    }
+    .contactme div{
+        width:80%;
+        /* margin:0 5% 0 5%; */
+    }
+    .contactme form input,textarea{
+        width: 100%;
+    }
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        position:fixed;
+        top: 0%;
+        right:0;
+        border: none;
+        width: 90px;
+        text-align: left;
+        display: block;
+      border-radius: 5px;
+      background-color: grey;
+      }
   }
