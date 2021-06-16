@@ -445,6 +445,8 @@ footer{
       }
       body{
           /* background-color: hotpink; */
+          margin: 0%;
+          overflow-x: hidden;
       }
       .profile mid div{
         width: 100%;
